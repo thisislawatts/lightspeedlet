@@ -1,0 +1,4 @@
+<meta id="LightspeedletShopUrl" name="" content="{{ shop.domain | replace({'http:':'https:'}) }}"/>
+{% if template_name == 'product' %}
+  <meta id="LightspeedletShopEdit" name="lightspeedlet" content="admin/products/{{ product.id }}"/>
+{% endif %}
